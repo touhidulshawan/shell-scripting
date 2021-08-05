@@ -1,0 +1,7 @@
+I am now learing bash scripting.
+I am appending new content
+
+
+:q
+exit
+
