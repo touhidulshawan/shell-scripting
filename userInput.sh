@@ -19,3 +19,8 @@ echo "Enter names: "
 read -a names
 
 echo "Entered Names are : ${names[0]} ${names[1]}"
+
+# default variable to store a value from user
+echo name
+read
+echo "$REPLY"
