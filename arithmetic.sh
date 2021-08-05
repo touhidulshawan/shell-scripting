@@ -3,7 +3,7 @@
 num1=10
 num2=5
 
-echo "Sum: " $((num1 + num2))
+echo "Sum: " $((num1 + num2)) 
 echo "Sub: " $((num1 - num2))
 echo "Multi: " $((num1 * num2))
 echo "Div: " $((num1 / num2))
@@ -18,3 +18,14 @@ echo "Multi: " $(expr $num1 \* $num2)
 echo "Div: " $(expr $num1 / $num2)
 echo "Modulus: " $(expr $num1 % $num2)
 
+
+# floating number
+
+num3=15.5
+num4=5
+
+echo $num3 + $num4 | bc
+echo $num3 - $num4 | bc
+echo $num3*$num4 | bc
+echo $num3 / $num4 | bc
+echo $num3 % $num4 | bc
