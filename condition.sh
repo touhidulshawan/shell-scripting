@@ -1,9 +1,19 @@
 #! /bin/bash
 
-count=9
+count=5
 
-if [ $count -eq 10 ]; then
-   echo "Match" 
+if [ $count -eq 5 ]; then
+    echo "Yep"
+fi
+
+# login
+pass="linux"
+
+read -p "Enter your username: " username
+read -sp "Enter your password": password
+echo 
+if [ $password = $pass ]; then
+    echo "Successfully login! Welcome $username"
 else
-    echo "Not match"
+    echo "Password not match"
 fi
