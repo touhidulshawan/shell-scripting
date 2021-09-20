@@ -1,14 +1,10 @@
-#! /bin/bash
+#!/bin/bash
 
-# There are two types of variable 
-# - System Variable
-# - User Defined Variable
+employee="Sarah"
 
-# declare a variable called name 
-name="Touhidul Shawan" # This is user defined  variable
-
-echo $name
-
-# $HOME, $PATH is system variable
-echo $HOME
-echo $PATH
+echo "Hello ${employee},"
+echo "I am very happy with your hard work for our compnay. You have worked hard
+for our compnay. Thank you very much for your efforts"
+echo "Keep it up your hard work, ${employee}."
+echo "Best wishes,"
+echo "Shawan, CEO"
