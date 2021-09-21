@@ -4,14 +4,14 @@ read -p "What is your first name: " firstname
 
 read -p "What is your surname: " surname
 
-echo "Select your phone type: "
+PS3="Select your phone type: "
 
 select phone_type in headset handheld; do
     echo "Your phone type is $phone_type"
     break
 done
 
-echo "Select your department: "
+PS3="Select your department: "
 
 select department in finance sales "customer service" enginnering; do
     echo "Your department $department"
