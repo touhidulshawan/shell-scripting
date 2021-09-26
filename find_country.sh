@@ -44,6 +44,7 @@ select city in Tokyo London "Los Angeles" Moscow Dubai Manchester "New York" Par
         ;;
     *)
         echo "Invalid city name"
+        break
         ;;
     esac
     echo "$city is city of $country"
