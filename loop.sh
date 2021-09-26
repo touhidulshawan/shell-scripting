@@ -1,10 +1,9 @@
 #! /bin/bash
 
-num=1
+read -p "Enter a number: " num
 
-while [[ $num -le 10 ]]; do
-   echo $num
-    num=$(( num+1 ))
-   # or you can write with 
-  # (( num++ ))
+while [[ $num -gt 10 ]]; do
+    echo $num
+    num=$(($num - 1))
+
 done
