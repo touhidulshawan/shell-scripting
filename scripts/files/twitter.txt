@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+date: Fri, 08 Oct 2021 18:06:02 UTC
+server: tsa_k
+location: https://www.twitter.com/
+set-cookie: personalization_id="v1_8png23ZCbdktPKmqRsXwLw=="; Max-Age=63072000; Expires=Sun, 08 Oct 2023 18:06:02 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: guest_id=v1%3A163371636238559031; Max-Age=63072000; Expires=Sun, 08 Oct 2023 18:06:02 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+cache-control: no-cache, no-store, max-age=0
+content-length: 0
+x-connection-hash: 6278b19c33f39d0f4f3c9a2d2130e2fc79eb7818c23e74a155c6b7716e402598
+
